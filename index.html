@@ -57,257 +57,207 @@
     </section>
 
     <!-- Projects Section Start -->
-    <section id="projects" class="projects-section py-5">
-        <div class="container py-5">
-            <div class="text-center mb-5">
-                <span class="section-badge">PROJECTS</span>
-            </div>
-
-            <!-- Carousel Wrapper -->
-            <div id="projectsCarousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
-                
-                <!-- Carousel Indicators (Optional) -->
-                <div class="carousel-indicators" >
-                    <button type="button" data-bs-target="#projectsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#projectsCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#projectsCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <section id="projects" class="projects-section py-5">
+            <div class="container py-5">
+                <div class="text-center mb-5">
+                    <span class="section-badge">PROJECTS</span>
                 </div>
 
-                <div class="carousel-inner px-4 pb-4">
+                <!-- Projects Grid -->
+                <div class="row g-4">
                     
-                    <!-- Slide 1 (First 3 Projects) -->
-                    <div class="carousel-item active">
-                        <div class="row g-4">
-                            <!-- Card 1 -->
-                            <div class="col-lg-4 col-md-6">
-                                <div class="card project-card h-100">
-                                    <div class=" d-flex align-items-center justify-content-center">
-                                        <img class="card-img img-fluid" src="https://www.freevector.com/uploads/vector/preview/107732/Untitled-1_-_JPG-01.jpg">
-                                    </div>
-                                    <div class="card-body p-4 d-flex flex-column">
-                                        <div class="d-flex justify-content-between align-items-start mb-2">
-                                            <h5 class="card-title fw-bold mb-0">E-Commerce API Documentation</h5>
-                                            <span class="badge bg-light text-dark border">API Docs</span>
-                                        </div>
-                                        <p class="card-text text-muted small flex-grow-1">
-                                            Dynamic E-Commerce Workflow Management. The system features dynamic routes for order processing, real-time inventory updates, and secure user authentication. It also supports seamless automated order reporting and comprehensive product management. Documented Backend API published publicly using Postman.
-                                        </p>
-                                        <div class="d-flex justify-content-between align-items-center mt-4">
-                                            <div class="tech-tags text-muted small">REST API • Postman</div>
-                                            <!-- <a href="#" class="view-link text-dark fw-bold text-decoration-none small">View docs &rarr;</a> -->
-                                        </div>
-                                    </div>
-                                </div>
+                    <!-- Card 1 -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card project-card h-100">
+                            <div class="d-flex align-items-center justify-content-center">
+                                <img class="card-img img-fluid" src="https://www.freevector.com/uploads/vector/preview/107732/Untitled-1_-_JPG-01.jpg" alt="E-Commerce API Documentation Graphic" loading="lazy">
                             </div>
-
-                            <!-- Card 2 -->
-                            <div class="col-lg-4 col-md-6">
-                                <div class="card project-card h-100">
-                                    <div class=" d-flex align-items-center justify-content-center bg-dark text-white">
-                                        <img class="img-fluid card-img" src="https://www.shutterstock.com/shutterstock/photos/1686077053/display_1500/stock-vector-man-with-laptop-sitting-on-chair-work-freelance-from-home-1686077053.jpg">
-                                    </div>
-                                    <div class="card-body p-4 d-flex flex-column">
-                                        <div class="d-flex justify-content-between align-items-start mb-2">
-                                            <h5 class="card-title fw-bold mb-0">Course Booking API Documentation</h5>
-                                            <span class="badge bg-light text-dark border">API Docs</span>
-                                        </div>
-                                        <p class="card-text text-muted small flex-grow-1">
-                                            RESTful API for managing course enroliments, featuring user registration, authentication, and retrieval of user details. Supports course creation, updates, archiving, activation, and student enroliment. Publicly documented using Postman.
-                                        </p>
-                                        <div class="d-flex justify-content-between align-items-center mt-4">
-                                            <div class="tech-tags text-muted small">REST API • Postman</div>
-                                            <!-- <a href="#" class="view-link text-dark fw-bold text-decoration-none small">View project &rarr;</a> -->
-                                        </div>
-                                    </div>
+                            <div class="card-body p-4 d-flex flex-column">
+                                <div class="d-flex justify-content-between align-items-start mb-2">
+                                    <h5 class="card-title fw-bold mb-0">E-Commerce API Documentation</h5>
+                                    <span class="badge bg-light text-dark border">API Docs</span>
                                 </div>
-                            </div>
-
-                            <!-- Card 3 -->
-                            <div class="col-lg-4 col-md-6">
-                                <div class="card project-card h-100">
-                                    <div class="d-flex align-items-center justify-content-center">
-                                        <img class="card-img img-fluid" src="./images/book.jpg">
-                                    </div>
-                                    <div class="card-body p-4 d-flex flex-column">
-                                        <div class="d-flex justify-content-between align-items-start mb-2">
-                                            <h5 class="card-title fw-bold mb-0">Course Booking App</h5>
-                                            <span class="badge bg-light text-dark border">Full Stack</span>
-                                        </div>
-                                        <p class="card-text text-muted small flex-grow-1">
-                                            A MERN-stack course enrollment system featuring user registration, authentication, and profile management. Authenticated users can create, update, archive, and activate courses. The platform also allows users to browse available courses and enroll seamlessly.
-                                        </p>
-                                        <div class="d-flex justify-content-between align-items-center mt-4">
-                                            <div class="tech-tags text-muted small">MERN Stack</div>
-                                            <!-- <a href="#" class="view-link text-dark fw-bold text-decoration-none small">View project &rarr;</a> -->
-                                        </div>
-                                    </div>
+                                <p class="card-text text-muted small flex-grow-1">
+                                    Dynamic E-Commerce Workflow Management. The system features dynamic routes for order processing, real-time inventory updates, and secure user authentication. It also supports seamless automated order reporting and comprehensive product management. Documented Backend API published publicly using Postman.
+                                </p>
+                                <div class="d-flex justify-content-between align-items-center mt-4">
+                                    <div class="tech-tags text-muted small">REST API • Postman</div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Slide 2  -->
-                    <div class="carousel-item">
-                        <div class="row g-4">
-                            <!-- Card 4  -->
-                            <div class="col-lg-4 col-md-6">
-                                <div class="card project-card h-100">
-                                    <div class="d-flex align-items-center justify-content-center">
-                                        <img class="card-img img-fluid" src="./images/ecom1.jpg">
-                                    </div>
-                                    <div class="card-body p-4 d-flex flex-column">
-                                        <div class="d-flex justify-content-between align-items-start mb-2">
-                                            <h5 class="card-title fw-bold mb-0">E-Commerce App</h5>
-                                            <span class="badge bg-light text-dark border">E-Commerce</span>
-                                        </div>
-                                        <p class="card-text text-muted small flex-grow-1">
-                                            MERN E-Commerce Platform. The platform features dynamic product catalog with filtering and sorting, real-time search, seamless cart updates, secure checkout, and a comprehensive admin dashboard with real-time analytics and user management capabilities.
-                                        </p>
-                                        <div class="d-flex justify-content-between align-items-center mt-4">
-                                            <div class="tech-tags text-muted small">MERN Stack</div>
-                                            <!-- <a href="#" class="view-link text-dark fw-bold text-decoration-none small">View project &rarr;</a> -->
-                                        </div>
-                                    </div>
+                    <!-- Card 2 -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card project-card h-100">
+                            <div class="d-flex align-items-center justify-content-center bg-dark text-white">
+                                <img class="img-fluid card-img" src="https://www.shutterstock.com/shutterstock/photos/1686077053/display_1500/stock-vector-man-with-laptop-sitting-on-chair-work-freelance-from-home-1686077053.jpg" alt="Freelance Developer working from home" loading="lazy">
+                            </div>
+                            <div class="card-body p-4 d-flex flex-column">
+                                <div class="d-flex justify-content-between align-items-start mb-2">
+                                    <h5 class="card-title fw-bold mb-0">Course Booking API Documentation</h5>
+                                    <span class="badge bg-light text-dark border">API Docs</span>
+                                </div>
+                                <p class="card-text text-muted small flex-grow-1">
+                                    RESTful API for managing course enroliments, featuring user registration, authentication, and retrieval of user details. Supports course creation, updates, archiving, activation, and student enroliment. Publicly documented using Postman.
+                                </p>
+                                <div class="d-flex justify-content-between align-items-center mt-4">
+                                    <div class="tech-tags text-muted small">REST API • Postman</div>
                                 </div>
                             </div>
-                            <!-- Card 5 -->
-                            <div class="col-lg-4 col-md-6">
-                                <div class="card project-card h-100">
-                                    <div class="d-flex align-items-center justify-content-center">
-                                        <img class="card-img img-fluid" src="./images/booking.jpg">
-                                    </div>
-                                    <div class="card-body p-4 d-flex flex-column">
-                                        <div class="d-flex justify-content-between align-items-start mb-2">
-                                            <h5 class="card-title fw-bold mb-0">Airline Booking System</h5>
-                                            <span class="badge bg-light text-dark border">UI Mockup</span>
-                                        </div>
-                                        <p class="card-text text-muted small flex-grow-1">
-                                            Conceptual design showcasing an intuitive UI for flight search, seat selection, and booking confirmation, focusing on user experience and workflow efficiency.
-                                        </p>
-                                        <div class="d-flex justify-content-between align-items-center mt-4">
-                                            <div class="tech-tags text-muted small">Figma • UI/UX</div>
-                                            <!-- <a href="#" class="view-link text-dark fw-bold text-decoration-none small">View project &rarr;</a> -->
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            	<!-- Card 7 -->
-                        	<div class="col-lg-4 col-md-6">
-                        	    <div class="card project-card h-100">
-                        	        <div class="d-flex align-items-center justify-content-center">
-                        	            <img class="card-img img-fluid" src="./images/booking-proto.jpg">
-                        	        </div>
-                        	        <div class="card-body p-4 d-flex flex-column">
-                        	            <div class="d-flex justify-content-between align-items-start mb-2">
-                        	                <h5 class="card-title fw-bold mb-0">Airline Booking Prototype</h5>
-                        	                <span class="badge bg-light text-dark border">Prototype</span>
-                        	            </div>
-                        	            <p class="card-text text-muted small flex-grow-1">
-                        	                Interactive prototype simulating end-to-end airline booking functionalities, including flight search, reservation, payment processing, and real-time ticket management.
-                        	            </p>
-                        	            <div class="d-flex justify-content-between align-items-center mt-4">
-                        	                <div class="tech-tags text-muted small">Figma • Interactive</div>
-                        	                <!-- <a href="#" class="view-link text-dark fw-bold text-decoration-none small">View prototype &rarr;</a> -->
-                        	            </div>
-                        	        </div>
-                        	    </div>
-                        	</div>
-
                         </div>
-
                     </div>
 
-                    <!-- Slide 3 - For Short Courses Capstone  -->
-                    <div class="carousel-item">
-                        <div class="row g-4">
-                            <!-- Card 7  -->
-                            <div class="col-lg-4 col-md-6">
-                                <div class="card project-card h-100">
-                                    <div class="d-flex align-items-center justify-content-center">
-                                        <img class="card-img img-fluid" src="./images/ecom1.jpg">
-                                    </div>
-                                    <div class="card-body p-4 d-flex flex-column">
-                                        <div class="d-flex justify-content-between align-items-start mb-2">
-                                            <h5 class="card-title fw-bold mb-0">Short Courses Capstone</h5>
-                                            <span class="badge bg-light text-dark border"></span>
-                                        </div>
-                                        <p class="card-text text-muted small flex-grow-1">
-                                            Placeholder for your shourt courses capstone project.
-                                        </p>
-                                        <div class="d-flex justify-content-between align-items-center mt-4">
-                                            <div class="tech-tags text-muted small"></div>
-                                            <!-- <a href="#" class="view-link text-dark fw-bold text-decoration-none small"> &rarr;</a> -->
-                                        </div>
-                                    </div>
+                    <!-- Card 3 -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card project-card h-100">
+                            <div class="d-flex align-items-center justify-content-center">
+                                <img class="card-img img-fluid" src="./images/book.jpg" alt="Course Booking App interface preview" loading="lazy">
+                            </div>
+                            <div class="card-body p-4 d-flex flex-column">
+                                <div class="d-flex justify-content-between align-items-start mb-2">
+                                    <h5 class="card-title fw-bold mb-0">Course Booking App</h5>
+                                    <span class="badge bg-light text-dark border">Full Stack</span>
+                                </div>
+                                <p class="card-text text-muted small flex-grow-1">
+                                    A MERN-stack course enrollment system featuring user registration, authentication, and profile management. Authenticated users can create, update, archive, and activate courses. The platform also allows users to browse available courses and enroll seamlessly.
+                                </p>
+                                <div class="d-flex justify-content-between align-items-center mt-4">
+                                    <div class="tech-tags text-muted small">MERN Stack</div>
                                 </div>
                             </div>
-
-                            <!-- Card 8  -->
-                            <div class="col-lg-4 col-md-6">
-                                <div class="card project-card h-100">
-                                    <div class="d-flex align-items-center justify-content-center">
-                                        <img class="card-img img-fluid" src="./images/ecom.jpg">
-                                    </div>
-                                    <div class="card-body p-4 d-flex flex-column">
-                                        <div class="d-flex justify-content-between align-items-start mb-2">
-                                            <h5 class="card-title fw-bold mb-0">Short Courses Capstone</h5>
-                                            <span class="badge bg-light text-dark border"></span>
-                                        </div>
-                                        <p class="card-text text-muted small flex-grow-1">
-                                            Placeholder for your shourt courses capstone project.
-                                        </p>
-                                        <div class="d-flex justify-content-between align-items-center mt-4">
-                                            <div class="tech-tags text-muted small"></div>
-                                            <!-- <a href="#" class="view-link text-dark fw-bold text-decoration-none small"> &rarr;</a> -->
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Card 9  -->
-                            <div class="col-lg-4 col-md-6">
-                                <div class="card project-card h-100">
-                                    <div class="d-flex align-items-center justify-content-center">
-                                        <img class="card-img img-fluid" src="./images/book.jpg">
-                                    </div>
-                                    <div class="card-body p-4 d-flex flex-column">
-                                        <div class="d-flex justify-content-between align-items-start mb-2">
-                                            <h5 class="card-title fw-bold mb-0">Short Courses Capstone</h5>
-                                            <span class="badge bg-light text-dark border"></span>
-                                        </div>
-                                        <p class="card-text text-muted small flex-grow-1">
-                                            Placeholder for your shourt courses capstone project.
-                                        </p>
-                                        <div class="d-flex justify-content-between align-items-center mt-4">
-                                            <div class="tech-tags text-muted small"></div>
-                                            <!-- <a href="#" class="view-link text-dark fw-bold text-decoration-none small"> &rarr;</a> -->
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            
-
                         </div>
-
                     </div>
-                     
+
+                    <!-- Card 4 -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card project-card h-100">
+                            <div class="d-flex align-items-center justify-content-center">
+                                <img class="card-img img-fluid" src="./images/ecom1.jpg" alt="E-Commerce application dashboard" loading="lazy">
+                            </div>
+                            <div class="card-body p-4 d-flex flex-column">
+                                <div class="d-flex justify-content-between align-items-start mb-2">
+                                    <h5 class="card-title fw-bold mb-0">E-Commerce App</h5>
+                                    <span class="badge bg-light text-dark border">E-Commerce</span>
+                                </div>
+                                <p class="card-text text-muted small flex-grow-1">
+                                    MERN E-Commerce Platform. The platform features dynamic product catalog with filtering and sorting, real-time search, seamless cart updates, secure checkout, and a comprehensive admin dashboard with real-time analytics and user management capabilities.
+                                </p>
+                                <div class="d-flex justify-content-between align-items-center mt-4">
+                                    <div class="tech-tags text-muted small">MERN Stack</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 5 -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card project-card h-100">
+                            <div class="d-flex align-items-center justify-content-center">
+                                <img class="card-img img-fluid" src="./images/booking.jpg" alt="Airline Booking System user interface mockup" loading="lazy">
+                            </div>
+                            <div class="card-body p-4 d-flex flex-column">
+                                <div class="d-flex justify-content-between align-items-start mb-2">
+                                    <h5 class="card-title fw-bold mb-0">Airline Booking System</h5>
+                                    <span class="badge bg-light text-dark border">UI Mockup</span>
+                                </div>
+                                <p class="card-text text-muted small flex-grow-1">
+                                    Conceptual design showcasing an intuitive UI for flight search, seat selection, and booking confirmation, focusing on user experience and workflow efficiency.
+                                </p>
+                                <div class="d-flex justify-content-between align-items-center mt-4">
+                                    <div class="tech-tags text-muted small">Figma • UI/UX</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 6 -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card project-card h-100">
+                            <div class="d-flex align-items-center justify-content-center">
+                                <img class="card-img img-fluid" src="./images/booking-proto.jpg" alt="Airline Booking Interactive Prototype" loading="lazy">
+                            </div>
+                            <div class="card-body p-4 d-flex flex-column">
+                                <div class="d-flex justify-content-between align-items-start mb-2">
+                                    <h5 class="card-title fw-bold mb-0">Airline Booking Prototype</h5>
+                                    <span class="badge bg-light text-dark border">Prototype</span>
+                                </div>
+                                <p class="card-text text-muted small flex-grow-1">
+                                    Interactive prototype simulating end-to-end airline booking functionalities, including flight search, reservation, payment processing, and real-time ticket management.
+                                </p>
+                                <div class="d-flex justify-content-between align-items-center mt-4">
+                                    <div class="tech-tags text-muted small">Figma • Interactive</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 7 -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card project-card h-100">
+                            <div class="d-flex align-items-center justify-content-center">
+                                <img class="card-img img-fluid" src="./images/ecom1.jpg" alt="Short Courses Capstone thumbnail" loading="lazy">
+                            </div>
+                            <div class="card-body p-4 d-flex flex-column">
+                                <div class="d-flex justify-content-between align-items-start mb-2">
+                                    <h5 class="card-title fw-bold mb-0">Short Courses Capstone 1</h5>
+                                    <span class="badge bg-light text-dark border">Capstone</span>
+                                </div>
+                                <p class="card-text text-muted small flex-grow-1">
+                                    Placeholder for your short courses capstone project.
+                                </p>
+                                <div class="d-flex justify-content-between align-items-center mt-4">
+                                    <div class="tech-tags text-muted small">Technology Stack</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 8 -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card project-card h-100">
+                            <div class="d-flex align-items-center justify-content-center">
+                                <img class="card-img img-fluid" src="./images/ecom.jpg" alt="Short Courses Capstone alternative thumbnail" loading="lazy">
+                            </div>
+                            <div class="card-body p-4 d-flex flex-column">
+                                <div class="d-flex justify-content-between align-items-start mb-2">
+                                    <h5 class="card-title fw-bold mb-0">Short Courses Capstone 2</h5>
+                                    <span class="badge bg-light text-dark border">Capstone</span>
+                                </div>
+                                <p class="card-text text-muted small flex-grow-1">
+                                    Placeholder for your short courses capstone project.
+                                </p>
+                                <div class="d-flex justify-content-between align-items-center mt-4">
+                                    <div class="tech-tags text-muted small">Technology Stack</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 9 -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card project-card h-100">
+                            <div class="d-flex align-items-center justify-content-center">
+                                <img class="card-img img-fluid" src="./images/book.jpg" alt="Final Short Courses Capstone thumbnail" loading="lazy">
+                            </div>
+                            <div class="card-body p-4 d-flex flex-column">
+                                <div class="d-flex justify-content-between align-items-start mb-2">
+                                    <h5 class="card-title fw-bold mb-0">Short Courses Capstone 3</h5>
+                                    <span class="badge bg-light text-dark border">Capstone</span>
+                                </div>
+                                <p class="card-text text-muted small flex-grow-1">
+                                    Placeholder for your short courses capstone project.
+                                </p>
+                                <div class="d-flex justify-content-between align-items-center mt-4">
+                                    <div class="tech-tags text-muted small">Technology Stack</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
-
-                <!-- Carousel Controls -->
-                <button class="carousel-control-prev" type="button" data-bs-target="#projectsCarousel" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#projectsCarousel" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-
             </div>
-        </div>
-    </section>
+        </section>
     <!-- Projects Section End -->
 
     <!-- Tools Section -->
